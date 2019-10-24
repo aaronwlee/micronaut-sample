@@ -12,5 +12,9 @@ default builder => gradle
         --lang groovy
 ```
 
-### `./gradlew run`
+### `./gradlew test` or `./gradlew run`
+
+### `./mvnw compile` or `./mvnw exec:exec`
+
+
 
