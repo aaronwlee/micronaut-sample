@@ -1,11 +1,14 @@
-``mn create-app example.micronaut.cannalogue``
+<h1>Micronaut sample project</h1>
 
-`default builder => gradle`
-        `-b -build maven`
+<h3>created with </h3> ### `mn create-app example.micronaut.cannalogue`
 
-`default lang => java`
-        `--lang groovy`
+```js
+default builder => gradle
+        -b -build maven
 
+        default lang => java
+        --lang groovy
+```
 
-``./gradlew run``
+### `./gradlew run`
 
