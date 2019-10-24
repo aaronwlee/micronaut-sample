@@ -1,0 +1,12 @@
+micronaut:
+  application:
+    name: cannalogue
+jackson:
+    bean-introspection-module: true
+    jackson.json-view.enabled: true
+    serialization:
+        indentOutput: true
+        writeDatesAsTimestamps: false
+    deserialization:
+        useBigIntegerForInts: true
+        failOnUnknownProperties: false
